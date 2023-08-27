@@ -33,10 +33,7 @@ export default function Product() {
     <section className="p-3">
       <div>
         <h2 className="secondary-button">Flash Sale</h2>
-        <ul
-          role="list"
-          className="text-main-color flex flex-wrap justify-start pt-4 font-semibold"
-        >
+        <ul role="list" className="flex flex-wrap pt-4">
           {productList}
         </ul>
       </div>

@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import NotFound from "./Pages/NotFound";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
+import DetailProduct from "./components/DetailProduct";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/detailProduct" element={<DetailProduct />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

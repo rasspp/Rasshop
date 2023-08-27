@@ -7,7 +7,7 @@
     @apply text-main-color;
   }
   input {
-    @apply placeholder:text-main-color/70 text-main-color border px-3 py-2 font-semibold  outline-none transition-all;
+    @apply border px-3 py-2 font-semibold text-main-color outline-none  transition-all placeholder:text-main-color/70;
   }
   img {
     @apply select-none;
@@ -16,18 +16,18 @@
 
 @layer components {
   .main-button {
-    @apply bg-main-color hover:text-main-color active:bg-main-color border-main-color cursor-pointer select-none rounded-sm border-2 px-3 py-1    transition-all hover:bg-white active:text-white;
+    @apply cursor-pointer select-none rounded-sm border-2 border-main-color bg-main-color px-3 py-1 font-semibold transition-all hover:bg-white    hover:text-main-color active:bg-main-color active:text-white;
   }
   .reverse-main-button {
-    @apply main-button text-main-color active:text-main-color hover:bg-main-color border-white bg-white    hover:border-white hover:text-white active:bg-white;
+    @apply main-button border-white bg-white text-main-color hover:border-white hover:bg-main-color    hover:text-white active:bg-white active:text-main-color;
   }
   .secondary-button {
-    @apply text-main-color hover:bg-main-color border-main-color rounded-sm border-2 py-2 text-center font-bold hover:text-white;
+    @apply rounded-sm border-2 border-main-color py-2 text-center font-bold text-main-color hover:bg-main-color hover:text-white;
   }
   .input {
-    @apply w-full  rounded-sm border border-white;
+    @apply w-full rounded-sm border border-white;
   }
   .product-card {
-    @apply [&>div]:border-main-color [&>div]:bg-main-color [&>div>img]:border-main-color h-72 w-3/12 p-3 transition-all [&>div>img]:h-1/2 [&>div>img]:w-full [&>div>img]:rounded-t-sm [&>div>img]:border [&>div>img]:bg-center [&>div>img]:object-cover  [&>div]:h-full [&>div]:cursor-pointer [&>div]:overflow-hidden [&>div]:rounded-sm [&>div]:border [&>div]:p-1 [&>div]:text-white;
+    @apply h-72 w-3/12 p-3 font-semibold transition-all [&>div>img]:h-1/2 [&>div>img]:w-full [&>div>img]:rounded-t-sm [&>div>img]:border [&>div>img]:border-main-color [&>div>img]:bg-center [&>div>img]:object-cover [&>div]:h-full  [&>div]:cursor-pointer [&>div]:overflow-hidden [&>div]:rounded-sm [&>div]:border [&>div]:border-main-color [&>div]:bg-main-color [&>div]:p-1 [&>div]:text-white;
   }
 }
