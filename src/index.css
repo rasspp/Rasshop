@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-main-color;
+  }
+  input {
+    @apply placeholder:text-main-color/70 text-main-color border px-3 py-2 font-semibold  outline-none transition-all;
+  }
+  img {
+    @apply select-none;
+  }
+}
+
+@layer components {
+  .main-button {
+    @apply bg-main-color hover:text-main-color active:bg-main-color border-main-color cursor-pointer select-none rounded-sm border-2 px-3 py-1    transition-all hover:bg-white active:text-white;
+  }
+  .reverse-main-button {
+    @apply main-button text-main-color active:text-main-color hover:bg-main-color border-white bg-white    hover:border-white hover:text-white active:bg-white;
+  }
+  .secondary-button {
+    @apply text-main-color hover:bg-main-color border-main-color rounded-sm border-2 py-2 text-center font-bold hover:text-white;
+  }
+  .input {
+    @apply w-full  rounded-sm border border-white;
+  }
+  .product-card {
+    @apply [&>div]:border-main-color [&>div]:bg-main-color [&>div>img]:border-main-color h-72 w-3/12 p-3 transition-all [&>div>img]:h-1/2 [&>div>img]:w-full [&>div>img]:rounded-t-sm [&>div>img]:border [&>div>img]:bg-center [&>div>img]:object-cover  [&>div]:h-full [&>div]:cursor-pointer [&>div]:overflow-hidden [&>div]:rounded-sm [&>div]:border [&>div]:p-1 [&>div]:text-white;
+  }
+}

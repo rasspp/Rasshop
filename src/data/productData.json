@@ -1,0 +1,111 @@
+[
+    {
+        "_id": 1,
+        "name": "Laptop Acer Nitro 5",
+        "description": "Powerful gaming laptop with high-performance specs.",
+        "price": 1200,
+        "imageUrl": "https://example.com/images/laptop-acer-nitro-5.jpg",
+        "category": "Laptop",
+        "stock": 10,
+        "rating": 4.5,
+        "discount": 0.1
+    },
+    {
+        "_id": 2,
+        "name": "iPhone 14 Pro Max",
+        "description": "Flagship smartphone with cutting-edge features.",
+        "price": 1299,
+        "imageUrl": "https://example.com/images/iphone-14-pro-max.jpg",
+        "category": "Smartphone",
+        "stock": 5,
+        "rating": 4.8,
+        "discount": 0
+    }, {
+        "_id": 3,
+        "name": "Samsung 4K Smart TV",
+        "description": "High-resolution smart TV with vibrant colors.",
+        "price": 899,
+        "imageUrl": "https://example.com/images/samsung-4k-smart-tv.jpg",
+        "category": "TV & Monitor",
+        "stock": 15,
+        "rating": 4.6,
+        "discount": 0.15
+    },
+    {
+        "_id": 4,
+        "name": "Sony Noise-Cancelling Headphones",
+        "description": "Wireless headphones with superior noise cancellation.",
+        "price": 299,
+        "imageUrl": "https://example.com/images/sony-noise-cancelling-headphones.jpg",
+        "category": "Headphone",
+        "stock": 8,
+        "rating": 4.9,
+        "discount": 0
+    },
+    {
+        "_id": 5,
+        "name": "Dell UltraSharp 27 Monitor",
+        "description": "High-quality 27-inch monitor with stunning color accuracy.",
+        "price": 499,
+        "imageUrl": "https://example.com/images/dell-ultrasharp-27-monitor.jpg",
+        "category": "TV & Monitor",
+        "stock": 20,
+        "rating": 4.7,
+        "discount": 0.05
+    },
+    {
+        "_id": 6,
+        "name": "PlayStation 5",
+        "description": "Next-gen gaming console with immersive gaming experience.",
+        "price": 499,
+        "imageUrl": "https://example.com/images/playstation-5.jpg",
+        "category": "Gaming",
+        "stock": 3,
+        "rating": 4.9,
+        "discount": 0
+    },
+    {
+        "_id": 7,
+        "name": "Logitech Wireless Mouse",
+        "description": "Ergonomic wireless mouse for comfortable usage.",
+        "price": 39,
+        "imageUrl": "https://example.com/images/logitech-wireless-mouse.jpg",
+        "category": "Accessoris",
+        "stock": 25,
+        "rating": 4.6,
+        "discount": 0.1
+    },
+    {
+        "_id": 8,
+        "name": "Samsung Galaxy Watch 4",
+        "description": "Advanced smartwatch with fitness tracking and health features.",
+        "price": 299,
+        "imageUrl": "https://example.com/images/samsung-galaxy-watch-4.jpg",
+        "category": "Smartwatch",
+        "stock": 12,
+        "rating": 4.5,
+        "discount": 0
+    },
+    {
+        "_id": 9,
+        "name": "Amazon Echo Dot",
+        "description": "Smart speaker with Alexa voice control.",
+        "price": 49,
+        "imageUrl": "https://example.com/images/amazon-echo-dot.jpg",
+        "category": "Speaker",
+        "stock": 18,
+        "rating": 4.4,
+        "discount": 0
+    },
+    {
+        "_id": 10,
+        "name": "Canon EOS Rebel T7i",
+        "description": "Entry-level DSLR camera for photography enthusiasts.",
+        "price": 699,
+        "imageUrl": "https://example.com/images/canon-eos-rebel-t7i.jpg",
+        "category": "Camera",
+        "stock": 6,
+        "rating": 4.7,
+        "discount": 0
+    }
+]
