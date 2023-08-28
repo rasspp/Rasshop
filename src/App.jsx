@@ -8,6 +8,7 @@ import NotFound from "./Pages/NotFound";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
 import ProductDetail from "./components/ProductDetail";
+import Checkout from "./components/Checkout";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/cart/checkout" element={<Checkout />} />
           <Route path="/product-detail" element={<ProductDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

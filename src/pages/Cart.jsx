@@ -1,5 +1,6 @@
 import { AiFillStar, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import CartResult from "../components/CartResult";
 
 export default function Cart() {
   return (
@@ -51,6 +52,8 @@ export default function Cart() {
             </div>
           </li>
         </ul>
+
+        <CartResult />
       </div>
     </section>
   );

@@ -3,8 +3,8 @@ import Form from "../components/Form";
 export default function Register() {
   return (
     <section>
-      <div className="pt-5">
-        <h1 className="secondary-button">Register</h1>
+      <div>
+        <h1 className="secondary-button my-5">Register</h1>
 
         <Form isPage={"register"} />
       </div>
