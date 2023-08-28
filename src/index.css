@@ -28,6 +28,6 @@
     @apply w-full rounded-sm border border-white;
   }
   .product-card {
-    @apply h-72 w-3/12 p-3 font-semibold transition-all [&>div>img]:h-1/2 [&>div>img]:w-full [&>div>img]:rounded-t-sm [&>div>img]:border [&>div>img]:border-main-color [&>div>img]:bg-center [&>div>img]:object-cover [&>div]:h-full  [&>div]:cursor-pointer [&>div]:overflow-hidden [&>div]:rounded-sm [&>div]:border [&>div]:border-main-color [&>div]:bg-main-color [&>div]:p-1 [&>div]:text-white;
+    @apply h-72 w-3/12 p-3 font-semibold transition-all [&>div>a>img]:h-1/2 [&>div>a>img]:w-full [&>div>a>img]:rounded-t-sm [&>div>a>img]:border [&>div>a>img]:border-main-color [&>div>a>img]:bg-center [&>div>a>img]:object-cover [&>div]:h-full [&>div]:overflow-hidden [&>div]:rounded-sm [&>div]:border [&>div]:border-main-color [&>div]:bg-main-color [&>div]:p-1 [&>div]:text-white;
   }
 }

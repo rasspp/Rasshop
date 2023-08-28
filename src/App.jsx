@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import NotFound from "./Pages/NotFound";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
-import DetailProduct from "./components/DetailProduct";
+import ProductDetail from "./components/ProductDetail";
 
 function App() {
   useEffect(() => {
@@ -20,13 +20,13 @@ function App() {
     <Router>
       <Navbar />
 
-      <div className="px container mx-auto pt-16">
+      <div className="container mx-auto min-h-screen pt-16">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/detailProduct" element={<DetailProduct />} />
+          <Route path="/product-detail" element={<ProductDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

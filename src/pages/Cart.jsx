@@ -1,4 +1,5 @@
-import { AiFillStar } from "react-icons/ai";
+import { AiFillStar, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function Cart() {
   return (
@@ -9,11 +10,13 @@ export default function Cart() {
         <ul className="flex flex-wrap pt-4">
           <li className="product-card">
             <div>
-              <img
-                src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
-                alt="gambar"
-                loading="lazy"
-              />
+              <Link to={"/product-detail"}>
+                <img
+                  src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80"
+                  alt="gambar"
+                  loading="lazy"
+                />
+              </Link>
 
               <div className=" px-2 py-1">
                 <div className="flex w-full justify-between">
@@ -35,13 +38,13 @@ export default function Cart() {
                 </p>
 
                 {/* special for product card in the Cart */}
-                <div className="mt-3 flex items-center justify-between">
-                  <button className="main-button border-white font-bold">
-                    -
+                <div className="quantity mt-5 flex w-full items-center justify-end gap-3 text-white ">
+                  <button className="main-button flex items-center justify-center border-white p-1 text-xs font-bold">
+                    <AiOutlineMinus />
                   </button>
                   <p>0</p>
-                  <button className="main-button border-white font-bold">
-                    +
+                  <button className="main-button flex items-center justify-center border-white p-1 text-xs font-bold ">
+                    <AiOutlinePlus />
                   </button>
                 </div>
               </div>

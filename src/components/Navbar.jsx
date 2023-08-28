@@ -3,7 +3,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <nav className="fixed flex w-full justify-between bg-main-color px-14 py-3 shadow-sm shadow-gray-950">
+    <nav className="fixed z-10 flex w-full justify-between bg-main-color px-14 py-3 shadow-sm shadow-gray-950">
       <Link to={"/"} className="reverse-main-button font-semibold ">
         Rasshop
       </Link>
