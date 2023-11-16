@@ -1,10 +1,21 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, /* useHistory, */ useLocation } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Navbar() {
+  // const history = useHistory();
+  const location = useLocation();
+
+  const getLoginText = () => {
+    if (location.pathname === "/login") {
+      return "Register";
+    }
+    return "Login";
+  };
+
   return (
     <nav className="fixed z-10 flex w-full justify-between bg-main-color px-14 py-3 shadow-sm shadow-gray-950">
       <Link to={"/"} className="reverse-main-button font-semibold ">
+        {" "}
         Rasshop
       </Link>
 
@@ -22,7 +33,7 @@ export default function Navbar() {
         </NavLink>
         <p>|</p>
         <NavLink to="/login" className="main-button border-white">
-          Login
+          {getLoginText}
         </NavLink>
       </div>
     </nav>

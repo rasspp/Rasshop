@@ -9,7 +9,7 @@ export default function CartResult() {
         <div className="border-b border-white p-1 pb-2">
           <p className="truncate">Iphone 14 Pro Max & Macbook Air M2</p>
           <div className="flex justify-between text-xs font-normal">
-            <p>x1</p>
+            <p>x1</p>``
             <p>
               Rp. <span> 24.000.000</span>
             </p>

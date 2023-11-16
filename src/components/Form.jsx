@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
 
 export default function Form({ isPage }) {
+  const history = useHistory();
+
+  const handleLogin = () => {
+    history.push("/dashboard");
+  };
   return (
     <div className="mx-auto w-1/2 rounded-sm  border-2 border-main-color bg-main-color p-8 text-white">
       <form action="#" className="flex flex-col gap-2">
@@ -24,6 +30,7 @@ export default function Form({ isPage }) {
         <button
           type="submit"
           className="main-button mt-10 w-full border-white font-semibold"
+          onClick={handleLogin}
         >
           Submit
         </button>
